@@ -6,6 +6,9 @@ export default function Home() {
       <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
         <a>About</a>
       </Link>
+      <Link href="/images" as={process.env.BACKEND_URL + '/images'}>
+        <a>Images</a>
+      </Link>
     </div>
   )
 }
