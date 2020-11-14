@@ -116,14 +116,7 @@ export default function Album() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
-                    Main call to action
-                  </Button>
-                </Grid>
-                <Grid item>
-                  <Button variant="outlined" color="primary">
-                    Secondary action
-                  </Button>
+                  <audio ref="audio_tag" src="/assets/audio/papaw-full-clean2.mp3" controls/>
                 </Grid>
               </Grid>
             </div>
