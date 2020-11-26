@@ -20,11 +20,13 @@ function getModalStyle() {
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
-    width: 800,
+    maxWidth: '80%',
+    height: 'auto%',
     backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
+    overflow: 'hidden'
   },
 }));
 
@@ -42,6 +44,14 @@ export default function SimpleModal(props) {
     setOpen(false);
   };
 
+  var divStyle = {
+          display: `block`,
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: `100%`,
+          height: `auto`
+  };
+
   const body = (
     <div style={modalStyle} className={classes.paper}>
       <h2 id="simple-modal-title">{props.title}</h2>
@@ -49,7 +59,7 @@ export default function SimpleModal(props) {
         {props.description}
       </p>
       <p>
-        <img src={props.imgUrl}/>
+        <img style={divStyle} src={props.imgUrl}/>
       </p>
     </div>
   );
@@ -57,7 +67,7 @@ export default function SimpleModal(props) {
   return (
     <div>
       <button type="button" onClick={handleOpen}>
-        Open Modal
+        View
       </button>
       <Modal
         open={open}

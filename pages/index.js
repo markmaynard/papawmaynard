@@ -63,9 +63,9 @@ const useStyles = makeStyles((theme) => ({
 
 const cards = [
     {
-        title: 'Title 1',
-        description: '',
-        imgUrl: "/assets/img/papaw_definition.jpeg"
+        title: 'Arnold Maynard Sr.',
+        description: 'Sitting on the side rail.',
+        imgUrl: "/assets/img/papaw_sitting_on_car.png"
     },
     {
         title: 'Title 1',
@@ -140,21 +140,15 @@ export default function Album() {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                      {card.title}
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the content.
+                      {card.description}
                     </Typography>
                   </CardContent>
                   <CardActions>
                       <SimpleModal imgUrl = {card.imgUrl} title={card.title} description={card.description}>
                       </SimpleModal>
-                    <Button size="small" color="primary">
-                      View
-                    </Button>
-                    <Button size="small" color="primary">
-                      Edit
-                    </Button>
                   </CardActions>
                 </Card>
               </Grid>
