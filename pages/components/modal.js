@@ -20,9 +20,10 @@ function getModalStyle() {
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
-    minWidth: '50%',
+    minWidth: '70%',
     maxWidth: '95%',
     height: 'auto',
+    minHeight: '70%',
     maxHeight: '95%',
     backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
@@ -48,10 +49,12 @@ export default function SimpleModal(props) {
   };
 
   var divStyle = {
-          display: `block`,
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: `100%`,
+          display: 'block',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          minWidth: '50%',
+          maxWidth: '100%',
+          minHeight: '50%',
           height: `auto`,
   };
 
