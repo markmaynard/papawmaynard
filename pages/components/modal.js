@@ -20,13 +20,16 @@ function getModalStyle() {
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
-    maxWidth: '80%',
-    height: 'auto%',
+    minWidth: '50%',
+    maxWidth: '95%',
+    height: 'auto',
+    maxHeight: '95%',
     backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
-    overflow: 'hidden'
+    overflow: 'hidden',
+    textAlign: 'center'
   },
 }));
 
@@ -49,7 +52,7 @@ export default function SimpleModal(props) {
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: `100%`,
-          height: `auto`
+          height: `auto`,
   };
 
   const body = (

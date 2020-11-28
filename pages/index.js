@@ -68,24 +68,49 @@ const cards = [
         imgUrl: "/assets/img/papaw_sitting_on_car.png"
     },
     {
-        title: 'Title 1',
-        description: '',
-        imgUrl: "/assets/img/papaw_definition.jpeg"
+        title: 'Can I count on your vote?',
+        description: 'Arnold Maynard running for mayor',
+        imgUrl: "/assets/img/arnold_for_mayor.png"
     },
     {
-        title: 'Title 1',
-        description: '',
-        imgUrl: "/assets/img/papaw_definition.jpeg"
+        title: 'Father and Son',
+        description: 'Joe Pap and Arnold Senior',
+        imgUrl: "/assets/img/father_and_son.jpg"
     },
     {
-        title: 'Title 1',
-        description: '',
-        imgUrl: "/assets/img/papaw_definition.jpeg"
+        title: 'On the radio',
+        description: 'Trying to get out the vote',
+        imgUrl: "/assets/img/on_the_radio.jpg"
     },
     {
-        title: 'Title 1',
-        description: '',
-        imgUrl: "/assets/img/papaw_definition.jpeg"
+        title: 'Winter Time',
+        description: 'Looking cool.',
+        imgUrl: "/assets/img/winter_time.jpg"
+    },
+    {
+      title: 'Young Guy',
+      description: 'Ready for my photo',
+      imgUrl: "/assets/img/young.jpg"
+    },
+    {
+      title: 'Sitting on the hill',
+      description: 'Hurry up, my pants are getting dirty!',
+      imgUrl: "/assets/img/sitting.jpg"
+    },
+    {
+      title: 'Happy Birthday Arnold!',
+      description: 'Father and son',
+      imgUrl: "/assets/img/Arnold_and_Arnold.jpg"
+    },
+    {
+      title: 'Arnold and Carl',
+      description: 'Arnold sitting with Carl Dove',
+      imgUrl: "/assets/img/Arnold_and_Carl.jpg"
+    },
+    {
+      title: 'The Reverend',
+      description: 'Reverend Arnold Maynard',
+      imgUrl: "/assets/img/rev_maynard.png"
     },
     ];
 
