@@ -120,23 +120,15 @@ export default function Album() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar position="relative">
-        <Toolbar>
-          <CameraIcon className={classes.icon} />
-          <Typography variant="h6" color="inherit" noWrap>
-            Album layout
-          </Typography>
-        </Toolbar>
-      </AppBar>
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Papaw
+              Papaw Maynard
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Photos of Papaw Maynard
+              I made this site for my fathers birthday, the heart of this website is a recording of his two sons playing with his father(my papaw). Please listen.
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
@@ -146,7 +138,13 @@ export default function Album() {
               </Grid>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <a href="/assets/ppy/slides.zip" download>Slides</a>
+                  <a href="/assets/ppt/slides.zip" download>Slides</a>
+                </Grid>
+                <Grid item>
+                  <a href="/assets/audio/papaw-full-clean2.mp3" download>MP3</a>
+                </Grid>
+                <Grid item>
+                  <a href="/assets/img/photos.zip" download>Photos</a>
                 </Grid>
               </Grid>
             </div>
